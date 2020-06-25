@@ -47,6 +47,7 @@
   text-align:center;
 }
 
-img:hover{
-  background-color: none;
+.cuore:hover {
+  display: block;
+  display: none;
 }
