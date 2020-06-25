@@ -10,15 +10,24 @@
 }
 
 .riga{
- width: 900px;
- height: 300px;
- border: 1px solid white;
+ width: 1000px;
+ height: 360px;
+ border: 10px solid white;
+ background-position: center;
 }
 
 .prodotti{
   background-color: lightgrey;
-  width: 150px;
-  height: 150px;
-  border: 10px solid white;
+  width: 300px;
+  height: 290px;
+  border: 1px solid white;
   display: inline-block;
+}
+
+.cuore {
+  position: absolute;
+  top:10px;
+  color: red;
+  text-align:center;
+  width: 100%;
 }
