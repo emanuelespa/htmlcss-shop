@@ -1,0 +1,29 @@
+
+.phone {
+  position: relative;
+  background-color: lightgrey;
+  float: left;
+  display: block;
+  width:150px;
+  height:150px
+}
+
+.smartphone {
+  position:absolute;
+  background-color: lightgrey;
+  float: left;
+  display: block;
+  width:150px;
+  height:150px;
+  left: 21%;
+}
+
+.cuffie{
+  position:absolute;
+  background-color: lightgrey;
+  float: left;
+  display: block;
+  width:150px;
+  height:150px;
+  left: 42%;
+}
