@@ -1,29 +1,24 @@
-
-.phone {
-  position: relative;
-  background-color: lightgrey;
-  float: left;
-  display: block;
-  width:150px;
-  height:150px
+*{
+  margin: 0;
+  padding:0;
 }
 
-.smartphone {
-  position:absolute;
-  background-color: lightgrey;
-  float: left;
-  display: block;
-  width:150px;
-  height:150px;
-  left: 21%;
+.container{
+  height: 600px;
+  width: 900px;
+  margin: auto;
 }
 
-.cuffie{
-  position:absolute;
+.riga{
+ width: 900px;
+ height: 300px;
+ border: 1px solid white;
+}
+
+.prodotti{
   background-color: lightgrey;
-  float: left;
-  display: block;
-  width:150px;
-  height:150px;
-  left: 42%;
+  width: 150px;
+  height: 150px;
+  border: 10px solid white;
+  display: inline-block;
 }
