@@ -47,7 +47,19 @@
   text-align:center;
 }
 
-.cuore:hover {
-  display: block;
+.cuore2 {
+  position: relative;
+  bottom: 40px;
+  color: red;
+  text-align:center;
+  z-index:2;
   display: none;
+}
+
+img{
+  z-index: 1;
+}
+
+div.cuore2:hover {
+  display: block;
 }
